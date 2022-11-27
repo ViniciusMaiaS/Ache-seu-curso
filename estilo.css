@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto + Condensed:ital,wght@0,300;0,400;1,700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(223, 211, 211, 0.7), rgb(0, 0, 0, 0.7)),url(../projsite/bg4.jpg);
+    background-position: center;
+    background-size: cover;             
+    padding: 0 8%;
+
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    width: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    font-size: 22px;
+}
+button{
+    width: 100px;
+    color: white;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.card{
+    width: 1100px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-15px);
+}
+.card1{
+    background-color: rgba(255, 0, 0, 0.744);
+}
+.card2{
+    background-color: orangered;
+}
+.card3{
+    background-color: rgb(24, 182, 226);
+    width: 940px;
+}
+.card4{
+    background-color: white;
+    width: 1000px;
+}
+h5{
+    color: white;
+    font-size: 50px;
+}
+.funda{
+    position: absolute;
+	left: 82%;
+	top: 70%;
+    cursor: pointer;
+}    
+.funda2{
+    position: absolute;
+	left: 82%;
+	top: 105%;
+    cursor: pointer;
+}
+.funda3{
+    position: absolute;
+	left: 73%;
+	top: 138%;
+    cursor: pointer;
+}
+.funda4{
+    position: absolute;
+	left: 76%;
+	top: 170%;
+    cursor: pointer;
+}
+.seb{
+    color: rgb(0, 140, 255);
+    font-size: 22px;
+}
+h4{
+    color: blue;
+    font-size: 50px;
+}
