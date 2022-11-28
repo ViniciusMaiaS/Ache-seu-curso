@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(223, 211, 211, 0.7), rgb(0, 0, 0, 0.7)),url('bg4.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),url('bg4.jpg');
     background-position: center;
     background-size: cover;             
     padding: 0 8%;
@@ -111,13 +111,13 @@ h5{
 .funda2{
     position: absolute;
 	left: 82%;
-	top: 103%;
+	top: 101%;
     cursor: pointer;
 }
 .funda3{
     position: absolute;
 	left: 73%;
-	top: 139%;
+	top: 138%;
     cursor: pointer;
 }
 .funda4{
